@@ -4,12 +4,6 @@ background-color: #150B0B;
 color: #998663;
 }
 
-// Nav Bar Section
-
-
-.top-bar {
-  background-color: #0F0813;
-}
 
 
 .nav-bar {
@@ -31,11 +25,13 @@ a {
 
 .personal-logo {
   background-color: #0F0813;
-  max-height: 50px;
+  width: 30px;
+  height: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
+
 
 .main-section {
   width: 100%;
@@ -49,8 +45,8 @@ a {
 .photo-square {
   margin: 10px;
   background-color: #998663;
-  height: 100px;
-  width: 80px;
+  height: 75px;
+  width: 60px;
   display: flex;
   position: relative;
   bottom: 0;
@@ -59,17 +55,67 @@ a {
 
 .photo {
   background-color: #998663;
-  height: 190px;
-  width: 175px;
+  height: 120px;
+  width: 100px;
   display: flex;
   
+}
+
+.intro {
+  padding-left: 15px;
+}
+
+.intro-hi {
+  background-color: #0F0813;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 15px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.my-name {
+  background-color: #0F0813;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.markup-box {
+  width: 60%;
+  background-color: #0F0813;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 0;
+
+ h3 {
+   background-color: #0F0813;
+   margin: 0;
+   font-weight: 200;
+ }
+  
+  p {
+  background-color: #0F0813;
+  font-size: 11px;
+  }
+
 }
 
 .main-left-panel {
   background-color: #0F0813;
   width:100%;
+  // display: flex;
+  // flex-direction: column;
+}
+
+.main-lp-top {
+  height: 200px;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .statement-section {
@@ -86,6 +132,11 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #0F0813;
+ 
+}
+
+.section-title {
+  background-color: #0F0813;
 }
 
 .box-title {
@@ -95,25 +146,20 @@ a {
   align-items: center;
   background-color: #0F0813;
 }
-
-h3 {
-  background-color: #0F0813;
-  font-weight: bold;
+h1 {
   display: flex;
   justify-content: center;
+  background-color: #0F0813;
+  width: 200px;
 }
-
 h2 {
   display: flex;
   justify-content: center;
+
 }
 
 p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #0F0813;
-  font-size: 11px;
 }
 
 
@@ -138,14 +184,31 @@ p {
   padding: 10px;
 }
 
+.download-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.resume-download {
+  background-color: #0F0813;
+  padding: 12px 28px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.resume-button:hover {
+  background-color: black; 
+  color: #998663;
+}
+
 footer {
   background-color: #0F0813;
   height: 70px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   font-size: 9px;
   font-weight: bold;
   padding: 1px 10px;
+  width: 100%;
 }
